@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charles' Outdoor Advisor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="dashboard">
+    <h2>🧭 Outdoor Advisor</h2>
+
+    <button onclick="switchMode('swim')">🏊 Swim Mode</button>
+    <button onclick="switchMode('repair')">🛠️ Repair Mode</button>
+    <button onclick="switchMode('dress')">🧥 Dress & Drama</button>
+    <button onclick="playNWS()">🎙️ NWS Radio</button>
+    <button onclick="showRadar()">🛰️ Local Radar</button>
+
+    <div id="output">📡 Status will appear here...</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
