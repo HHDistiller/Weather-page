@@ -1,0 +1,31 @@
+body {
+  background-color: #121212;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+#dashboard {
+  max-width: 600px;
+  margin: auto;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
+#output {
+  margin-top: 20px;
+  font-size: 1.1em;
+  white-space: pre-wrap;
+}
